@@ -1,0 +1,9 @@
+.head {
+  min-height: 104px;
+  width: 100%;
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
