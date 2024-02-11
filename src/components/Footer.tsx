@@ -3,12 +3,12 @@ import FooterList from "./FooterList";
 
 function Footer() {
   return (
-    <div>
+    <footer className="footer">
       <div>Our contacts</div>
       <div>
         <FooterList />
       </div>
-    </div>
+    </footer>
   );
 }
 

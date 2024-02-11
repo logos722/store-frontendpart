@@ -5,7 +5,7 @@ interface FooterLinkProps {
 }
 
 function FooterLink({ name }: FooterLinkProps) {
-  return <div>{name}</div>;
+  return <div className="footer__items">{name}</div>;
 }
 
 export default FooterLink;
